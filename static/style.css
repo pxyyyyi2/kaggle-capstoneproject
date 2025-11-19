@@ -1,0 +1,23 @@
+body{font-family:Inter,Arial,sans-serif;background:#f6f9fb;color:#0f1724;margin:0}
+.app{max-width:900px;margin:18px auto;padding:18px}
+header{text-align:center}
+.chat-window{height:180px;overflow:auto;padding:8px;border:1px solid #dde}
+.bubble{margin:6px;padding:8px;border-radius:8px}
+.bubble.user{background:#cfe9ff;text-align:right}
+.bubble.agent{background:#fff}
+.card{background:#fff;padding:10px;border-radius:8px;border:1px solid #eee;white-space:pre-wrap}
+input{padding:8px;border-radius:6px;border:1px solid #ddd;width:100%;margin-top:8px}
+button{margin-top:8px;padding:8px 10px;border-radius:6px;border:none;background:#06b6d4;color:#fff;cursor:pointer}
+
+
+
+#chat-box {
+    width: 100%;
+    height: 300px;       
+    padding: 15px;
+    font-size: 16px;
+    resize: vertical;    
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: white;
+}

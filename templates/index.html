@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Nutrition + Health Guide</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>AI Nutrition + Health Guide</h1>
+<p>Meal planner • nutrition scorer • recipe generator</p>
+
+<!-- CHAT BOX -->
+<textarea id="chat-box" readonly></textarea>
+
+<input id="chat-input" type="text" placeholder="Ask the agent (e.g. generate meal plan)">
+<button id="chat-send">Send</button>
+
+
+<h2>Meal Planner</h2>
+<input id="foods-input" placeholder="e.g. chicken, rice, salad">
+<button id="plan-btn">Generate Plan</button>
+<div id="plan-result"></div>
+
+<button id="chart-btn">Show Calories Chart</button>
+<img id="chart-img" style="max-width:400px; display:none;">
+
+
+<h2>Research</h2>
+<input id="research-query" placeholder="e.g. nutrition for muscle gain">
+<button id="research-btn">Search</button>
+<div id="research-results"></div>
+
+
+<h2>Daily Log</h2>
+<input id="log-input" placeholder="e.g. Drank 2L water">
+<button id="log-btn">Log</button>
+<div id="log-result"></div>
+
+
+<script src="/static/script.js"></script>
+</body>
+</html>
